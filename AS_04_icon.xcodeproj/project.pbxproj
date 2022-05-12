@@ -13,6 +13,7 @@
 		6D71FCD0282CD1D200AAD944 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D71FCCE282CD1D200AAD944 /* Main.storyboard */; };
 		6D71FCD2282CD1D300AAD944 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D71FCD1282CD1D300AAD944 /* Assets.xcassets */; };
 		6D71FCD5282CD1D300AAD944 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D71FCD3282CD1D300AAD944 /* LaunchScreen.storyboard */; };
+		6D71FCDD282CD20A00AAD944 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D71FCDC282CD20A00AAD944 /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6D71FCD1282CD1D300AAD944 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D71FCD4282CD1D300AAD944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D71FCD6282CD1D300AAD944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D71FCDC282CD20A00AAD944 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		6D71FCC7282CD1D200AAD944 /* AS_04_icon */ = {
 			isa = PBXGroup;
 			children = (
+				6D71FCDC282CD20A00AAD944 /* icon.png */,
 				6D71FCC8282CD1D200AAD944 /* AppDelegate.swift */,
 				6D71FCCA282CD1D200AAD944 /* SceneDelegate.swift */,
 				6D71FCCC282CD1D200AAD944 /* ViewController.swift */,
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D71FCDD282CD20A00AAD944 /* icon.png in Resources */,
 				6D71FCD5282CD1D300AAD944 /* LaunchScreen.storyboard in Resources */,
 				6D71FCD2282CD1D300AAD944 /* Assets.xcassets in Resources */,
 				6D71FCD0282CD1D200AAD944 /* Main.storyboard in Resources */,
@@ -216,7 +220,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +274,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
